@@ -35,6 +35,14 @@ footer,
       opacity: .6;
     }
   }
+  &-subtitle {
+    @include transition(all .2s ease-out);
+    color: $default-tint;
+    display: block;
+    font-size: 0.8em;
+    margin: 0;
+    padding-right: .2rem;
+  }
 
   ul {
     list-style-type: none;
